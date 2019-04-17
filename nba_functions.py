@@ -152,7 +152,7 @@ def player_comparison_tool(df, current_player_season, current_player_id):
             weight = (1 / row.distance)
             next_season = season_list[(season_list.index(row.season_id) + 1)]
             # find the player row with the id and the next season
-            player_next_season = find_player(ranked_df, row.player_id, next_season)
+            player_next_season = find_player(df, row.player_id, next_season)
             
             # it's not grabbing the column weight
             
