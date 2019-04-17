@@ -48,7 +48,7 @@ def calc_distance(u, v):
 
 
 # create a function to find the player and the next season
-def find_player(player_id, season):
+def find_player(df, player_id, season):
     # replaces for loop
     for row in df.itertuples():
         if season == row.season_id and player_id == row.player_id:
@@ -58,7 +58,7 @@ def find_player(player_id, season):
 # In[ ]:
 
 
-def player_comparison_tool(current_player_season, current_player_id):
+def player_comparison_tool(df, current_player_season, current_player_id):
     for row in df.itertuples():
         if current_player_season == row.season_id and current_player_id == row.player_id:
             current_player_id = row.player_id
@@ -152,7 +152,7 @@ def player_comparison_tool(current_player_season, current_player_id):
             weight = (1 / row.distance)
             next_season = season_list[(season_list.index(row.season_id) + 1)]
             # find the player row with the id and the next season
-            player_next_season = find_player(row.player_id, next_season)
+            player_next_season = find_player(ranked_df, row.player_id, next_season)
             
             # it's not grabbing the column weight
             
