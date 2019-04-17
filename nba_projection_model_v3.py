@@ -127,7 +127,7 @@ for baller_id in player_ids:
     current_player_season = '2015-16'
     # if function to catch if player is not in player dataframe, if not then don't even try the function
     try:
-        projections = player_comparison_tool(current_player_season, current_player_id)
+        projections = player_comparison_tool(df, current_player_season, current_player_id)
         if (projections == None):
             continue
     except:
