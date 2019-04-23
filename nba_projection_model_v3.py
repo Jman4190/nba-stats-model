@@ -29,7 +29,7 @@ from nba_functions import normalize, vorp, calc_distance, find_player, player_co
 
 
 # read in per game data from csv folder
-original_df = pd.read_csv('nba-csv/player_general_traditional_per_game_data.csv', header=0)
+original_df = pd.read_csv('nba-csv/player_general_traditional_per_game_data_v2.csv', header=0)
 
 
 # In[3]:
@@ -95,7 +95,9 @@ season_list = [
     '2013-14',
     '2014-15',
     '2015-16',
-    '2016-17'
+    '2016-17',
+    '2017-18',
+    '2018-19'
 ]
 
 
@@ -124,7 +126,7 @@ final_projections = []
 #for baller_id in all_player_ids:
 for baller_id in player_ids:
     current_player_id = baller_id
-    current_player_season = '2015-16'
+    current_player_season = '2017-18'
     # if function to catch if player is not in player dataframe, if not then don't even try the function
     try:
         projections = player_comparison_tool(df, current_player_season, current_player_id)
@@ -217,7 +219,7 @@ final_df.head(10)
 
 # get player name from csv to merge with player id
 player_df = pd.read_csv('nba-csv/player_name_player_id_all_seasons_final.csv')
-season = player_df['season_id'] == '2016-17'
+season = player_df['season_id'] == '2018-19'
 player_df = player_df[season]
 
 
