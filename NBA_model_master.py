@@ -13,7 +13,7 @@ from sklearn.metrics import mean_squared_error
 import pprint
 
 # read in per game data from csv folder
-original_df = pd.read_csv('nba-csv/player_general_traditional_per_game_data.csv', header=0)
+original_df = pd.read_csv('nba-csv/player_general_traditional_per_game_data_v2.csv', header=0)
 
 # check to see what data looks like
 original_df.tail()
@@ -72,7 +72,9 @@ season_list = [
     '2013-14',
     '2014-15',
     '2015-16',
-    '2016-17'
+    '2016-17',
+    '2017-18',
+    '2018-19'
 ]
 
 # function to calculate distance between two points
@@ -120,7 +122,7 @@ def player_comparison_tool(current_player_season, current_player_id):
     player_distance = []
 
     # loop over every row in the dataframe to calculate percent error
-    weighted_numbers = [10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    weighted_numbers = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     for row in df.itertuples():
         compared_player_vector = np.array([
         row.pts_norm,
@@ -175,7 +177,7 @@ def player_comparison_tool(current_player_season, current_player_id):
         sum_weight = 0
         for index, row in ranked_df.iloc[1:11].iterrows():
             # skip over the row if it was 2016-17 season because we can't take the next
-            if row.season_id == '2016-17':
+            if row.season_id == '2018-19':
                 continue
             # get the players next season
             weight = (1 / row.distance)
@@ -213,7 +215,7 @@ player_ids = [
 final_projections = []
 for baller_id in player_ids:
     current_player_id = baller_id
-    current_player_season = '2015-16'
+    current_player_season = '2017-18'
     # if function to catch if player is not in player dataframe, if not then don't even try the function
     try:
         projections = player_comparison_tool(current_player_season, current_player_id)
@@ -273,7 +275,7 @@ final_df.drop(columns = columns_to_drop, inplace = True)
 
 # get player name from csv to merge with player id
 player_df = pd.read_csv('nba-csv/player_name_player_id_all_seasons_final.csv')
-season = player_df['season_id'] == '2016-17'
+season = player_df['season_id'] == '2018-19'
 player_df = player_df[season]
 
 player_proj = pd.merge(final_df, player_df[['player_name', 'player_id']], how = 'left', on = 'player_id').drop_duplicates().reset_index(drop=True)
@@ -297,7 +299,7 @@ df_proj = player_proj.loc[:, ['proj_pts','proj_min','proj_fgm','proj_fga','proj_
 lin_mse = mean_squared_error(df_real, df_proj, multioutput='raw_values')
 lin_rmse = np.sqrt(lin_mse)
 confidence = np.mean(lin_rmse)
-print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2016-17'))
+print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2018-19'))
 
 df_real_stats = pd.concat([player_info,df_real],axis=1)
 df_real_stats.rename(columns = {'proj_season_id':'season_id',},inplace = True)
@@ -402,7 +404,7 @@ df_comp_1['Player'] = lowercase_names
 
 # merge with player_name
 player_df = pd.read_csv('nba-csv/player_name_player_id_all_seasons_final.csv')
-season = player_df['season_id'] == '2016-17'
+season = player_df['season_id'] == '2018-19'
 player_df = player_df[season]
 
 lowercase = player_df['player_name'].str.lower()
@@ -468,7 +470,7 @@ df_proj = competitor_proj.loc[:, ['PTS','REB','AST','BLK','STL','FG%','FT%','3PM
 lin_mse = mean_squared_error(df_real, df_proj, multioutput='raw_values')
 lin_rmse = np.sqrt(lin_mse)
 confidence = np.mean(lin_rmse)
-print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2016-17'))
+print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2018-19'))
 
 
 # ### Match up against our model for same stat columns
@@ -481,5 +483,5 @@ df_proj = model_final.loc[:, ['proj_pts','proj_reb','proj_ast','proj_blk','proj_
 lin_mse = mean_squared_error(df_real, df_proj, multioutput='raw_values')
 lin_rmse = np.sqrt(lin_mse)
 confidence = np.mean(lin_rmse)
-print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2016-17'))
+print('{0} percent confidence in projected {1} per game stats'.format(100 - round(confidence, 2), '2018-19'))
 
