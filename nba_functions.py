@@ -91,7 +91,7 @@ def player_comparison_tool(df, current_player_season, current_player_id):
     player_distance = []
 
     # loop over every row in the dataframe to calculate percent error
-    weighted_numbers = [10, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    weighted_numbers = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     for row in df.itertuples():
         compared_player_vector = np.array([
         row.pts_norm,
@@ -146,7 +146,7 @@ def player_comparison_tool(df, current_player_season, current_player_id):
         sum_weight = 0
         for index, row in ranked_df.iloc[1:11].iterrows():
             # skip over the row if it was 2016-17 season because we can't take the next
-            if row.season_id == '2016-17':
+            if row.season_id == '2018-19':
                 continue
             # get the players next season
             weight = (1 / row.distance)
@@ -162,10 +162,3 @@ def player_comparison_tool(df, current_player_season, current_player_id):
         projected_stats['proj_season_id'] = season_list[(season_list.index(current_player_season) + 1)]
         projected_stats['proj_' + col] = (sum_stat / sum_weight)
     return projected_stats
-
-
-# In[ ]:
-
-
-
-
