@@ -2,7 +2,7 @@
 KNN inspired NBA Stats Fantasy Projection Model in Python with Pandas
 
 ## Getting Started
-These instructions will get you a copy of the model up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the model up and running on your local machine for development and testing purposes. This is for MacOS.
 
 ### Prerequisites
 Recommend using Homebrew to install python and pyenv. Need to install [xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) first then install [homebrew](https://brew.sh/).
