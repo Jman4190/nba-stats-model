@@ -164,6 +164,9 @@ def player_comparison_tool(df, current_player_season, current_player_id):
             next_season = season_list[(season_list.index(row.season_id) + 1)]
             # find the player row with the id and the next season
             player_next_season = find_player(ranked_df, row.player_id, next_season)
+            # if player_next_season doesn't exist then skip
+            if player_next_season == None:
+                continue
             sum_stat += getattr(player_next_season, col) * weight
             sum_weight += weight
         projected_stats['player_id'] = current_player_id
