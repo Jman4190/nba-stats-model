@@ -1,0 +1,511 @@
+Player,Positions
+James Harden,"PG,SG"
+Russell Westbrook,PG
+Anthony Davis,"PF,C"
+LeBron James,"SF,PF"
+Stephen Curry,"PG,SG"
+Kevin Durant,"SF,PF"
+Damian Lillard,PG
+Giannis Antetokounmpo,"SF,PF"
+Kawhi Leonard,"SG,SF"
+DeMarcus Cousins,"PF,C"
+Kyrie Irving,"PG,SG"
+Karl-Anthony Towns,C 
+Devin Booker,"PG,SG"
+DeMar DeRozan,"SG,SF"
+Jimmy Butler,"SG,SF"
+Kemba Walker,PG
+Paul George,"SG,SF"
+Bradley Beal,SG
+Joel Embiid,"PF,C "
+John Wall,PG 
+CJ McCollum,"PG,SG"
+Andrew Wiggins,"SG,SF"
+Blake Griffin,"PF,C"
+Kyle Lowry,PG
+Klay Thompson,"SG,SF"
+Gordon Hayward,"SG,SF "
+Mike Conley,PG
+Kristaps Porzingis,"PF,C "
+Eric Bledsoe,"PG,SG"
+Victor Oladipo,"PG,SG "
+Isaiah Thomas,PG
+Kevin Love,"PF,C"
+Chris Paul,PG
+Marc Gasol,C
+Harrison Barnes,"SF,PF"
+Goran Dragic,"PG,SG "
+Lou Williams,"PG,SG"
+LaMarcus Aldridge,"PF,C "
+Khris Middleton,"SG,SF"
+Jrue Holiday,"PG,SG"
+Evan Fournier,"SG,SF"
+Nikola Jokic,"PF,C"
+Danilo Gallinari,"SF,PF"
+Paul Millsap,"PF,C"
+D'Angelo Russell,"PG,SG"
+Brook Lopez,C
+Tobias Harris,"SF,PF"
+Jabari Parker,"SF,PF"
+Tim Hardaway Jr.,"SG,SF"
+Zach LaVine,"PG,SG"
+JJ Redick,SG
+Donovan Mitchell,"PG,SG"
+Nikola Vucevic,"PF,C"
+Carmelo Anthony,"SF,PF "
+Dennis Schroder,PG 
+Myles Turner,"PF,C "
+Jeff Teague,PG
+Avery Bradley,"PG,SG"
+Gary Harris,"SG,SF"
+Deandre Ayton,"C,PF"
+Eric Gordon,SG
+Reggie Jackson,"PG,SG"
+Aaron Gordon,"SF,PF"
+Rodney Hood,"SG,SF"
+Hassan Whiteside,C
+TJ Warren,SF 
+Andre Drummond,"PF,C"
+Julius Randle,"PF,C"
+Dario Saric,"PF,C,SF"
+Dennis Smith Jr.,"PG,SG"
+Enes Kanter,C
+Michael Porter Jr.,PF 
+Nicolas Batum,"SG,SF"
+Jusuf Nurkic,C
+Serge Ibaka,"PF,C"
+Jeremy Lin,"PG,SG"
+Al Horford,"PF,C"
+Otto Porter Jr.,"SF,PF"
+George Hill,"PG,SG"
+Ben Simmons,"PG,SF"
+Robert Covington,"SF,PF "
+Rudy Gobert,C
+Buddy Hield,SG
+Josh Jackson,"SG,SF"
+Dirk Nowitzki,"PF,C"
+Jayson Tatum,"SF,PF"
+Elfrid Payton,PG
+Markieff Morris,"PF,C"
+Kentavious Caldwell-Pope,"SG,SF"
+Dwight Howard,"PF,C"
+Nikola Mirotic,"SF,PF"
+Rudy Gay,"SF,PF"
+Jamal Murray,"PG,SG"
+Trae Young,PG
+Brandon Ingram,"SG,SF"
+Will Barton,"SG,SF"
+Jonas Valanciunas,C 
+Clint Capela,"PF,C"
+Lauri Markkanen,"PF,SG"
+Bojan Bogdanovic,"SG,SF"
+Wesley Matthews,"SG,SF"
+Seth Curry,"PG,SG"
+Darren Collison,"PG,SG"
+Allen Crabbe,"SG,SF"
+Steven Adams,C
+Norman Powell,"SG,SF"
+Tyreke Evans,"PG,SG "
+Ricky Rubio,PG
+John Collins,"PF,C"
+Luka Doncic,"PG,SG "
+Derrick Favors,"PF,C"
+Jae Crowder,"SF,PF"
+Marvin Bagley III,PF
+James Johnson,"SF,PF "
+De'Aaron Fox,PG
+Tyler Johnson,"PG,SG"
+DeAndre Jordan,C
+Wilson Chandler,"SG,SF,PF "
+Collin Sexton,PG
+Jeremy Lamb,"SG,SF"
+Kent Bazemore,"SG,SF"
+Sean Kilpatrick,"PG,SG"
+Thaddeus Young,"SF,PF"
+Jaylen Brown,"SG,SF"
+Draymond Green,"PF,C"
+Malcolm Brogdon,"PG,SG"
+Dwyane Wade,"PG,SG"
+Frank Kaminsky,"PF,C"
+Rondae Hollis-Jefferson,"SF,PF"
+Caris LeVert,"SF,SG"
+Pau Gasol,"PF,C"
+Bogdan Bogdanovic,"SG,SF"
+Patty Mills,PG
+Milos Teodosic,"PG,SG"
+Taurean Prince,SF
+Marquese Chriss,"PF,C"
+Skal Labissiere,"PF,C"
+Jamal Crawford,"SG,SF"
+Willie Cauley-Stein,"PF,C"
+C.J. Miles,"SG,SF"
+Marcus Morris,"SF,PF"
+Marvin Williams,"SF,PF"
+DeMarre Carroll,"SF,PF"
+Trevor Ariza,"SG,SF"
+Robin Lopez,C
+Terrence Ross,"SG,SF"
+Taj Gibson,"PF,C"
+Derrick Rose,PG
+JaMychal Green,"PF,C"
+Kevin Knox,"SF,PF"
+Kelly Olynyk,"PF,C"
+Jordan Clarkson,"PG,SG"
+Markelle Fultz,"PG,SG "
+Marcin Gortat,C
+E'Twaun Moore,"SG,SF"
+Josh Richardson,"PG,SG,SF"
+Ryan Anderson,"PF,C"
+Michael Kidd-Gilchrist,SF
+Kyle Kuzma,"SF,PF"
+Marco Belinelli,"SG,SF"
+Emmanuel Mudiay,PG
+Greg Monroe,"PF,C"
+Cody Zeller,"PF,C"
+Willy Hernangomez,C
+Maurice Harkless,SF
+Joe Ingles,"SG,SF"
+Lonzo Ball,PG 
+Al-Farouq Aminu,"SF,PF"
+Zach Randolph,"PF,C "
+Jaren Jackson Jr.,PF 
+Rajon Rondo,PG
+Ish Smith,PG
+Evan Turner,"SG,SF "
+Tony Allen,"SG,SF"
+Dion Waiters,"SG,SF"
+Kelly Oubre Jr.,SF
+Austin Rivers,"PG,SG"
+Justise Winslow,"SF,PF,SG"
+Jonathon Simmons,"SG,SF"
+Wendell Carter Jr.,C 
+Marcus Smart,"PG,SG"
+Kris Dunn,"PG,SG"
+Miles Bridges,SF
+Patrick Beverley,"PG,SG"
+Manu Ginobili,"SG,SF"
+JR Smith,"SG,SF "
+Mason Plumlee,"PF,C"
+Alex Len,"PF,C"
+Dejounte Murray,PG 
+Courtney Lee,"SG,SF"
+Timofey Mozgov,C 
+Gerald Green,"SG,SF"
+Trey Burke,PG
+Bobby Portis,"PF,C"
+Domantas Sabonis,"PF,C"
+Nick Young,"SG,SF"
+Shai Gilgeous-Alexander,PG
+Jahlil Okafor,C
+JaVale McGee,C
+Paul Zipser,"SF,PF,SG"
+Mirza Teletovic,"SF,PF"
+Stanley Johnson,"SG,SF"
+Nerlens Noel,"PF,C"
+Justin Holiday,"SG,SF"
+Tristan Thompson,"PF,C "
+Ramon Sessions,"PG,SG"
+Trevor Booker,"PF,C"
+Kevin Huerter,SG 
+Jonathan Isaac,"PF,SF"
+Danny Green,"SG,SF"
+James Ennis III,"SG,SF"
+Thon Maker,"PF,C"
+D.J. Augustin,PG
+Ersan Ilyasova,"SF,PF"
+Richaun Holmes,"PF,C"
+Dewayne Dedmon,C
+John Henson,"PF,C "
+Jordan Crawford,"PG,SG"
+Zach Collins,"PF,C"
+Dillon Brooks,"SG,SF "
+Justin Jackson,SF
+Marreese Speights,"PF,C"
+Chandler Parsons,"SF,PF "
+Lance Stephenson,"SG,SF"
+Jarrett Allen,"PF,C"
+Mike Muscala,"PF,C "
+Jerian Grant,"PG,SG"
+Tyler Ulis,"PG,SG "
+P.J. Tucker,SF
+Cory Joseph,"PG,SG"
+Joe Harris,"SG,SF"
+Fred VanVleet,PG 
+Spencer Dinwiddie,PG 
+Dwight Powell,"PF,C"
+Andre Iguodala,"SG,SF"
+Derrick White,PG 
+Tyler Zeller,"PF,C"
+Yogi Ferrell,"PG,SG"
+Ben McLemore,SG
+Lonnie Walker IV,SG
+Michael Beasley,"SF,PF"
+Andre Roberson,"SG,SF "
+Sam Dekker,"SF,PF"
+Delon Wright,"PG,SG"
+Jason Smith,"PF,C"
+Meyers Leonard,"PF,C"
+Arron Afflalo,"SG,SF"
+Larry Nance Jr.,"PF,C"
+Al Jefferson,"PF,C"
+Jerami Grant,"SF,PF "
+Luke Kennard,SG
+Shabazz Muhammad,"SG,SF"
+Alex Abrines,SG
+Frank Ntilikina,PG 
+Tony Parker,PG
+Ian Clark,"PG,SG"
+Denzel Valentine,"SG,SF "
+Devin Harris,"PG,SG"
+Thabo Sefolosha,"SG,SF"
+Omri Casspi,"SF,PF"
+Andrew Harrison,"PG,SG"
+Luol Deng,"SF,PF"
+Shabazz Napier,PG
+Alec Burks,"PG,SG"
+Patrick Patterson,"PF,C"
+OG Anunoby,"SF,PF"
+Cheick Diallo,"PF,C"
+Tyson Chandler,C
+Doug McDermott,SF
+Tony Snell,"SG,SF"
+Kyle Korver,"SG,SF"
+Dragan Bender,"PF,C"
+Reggie Bullock,"SG,SF"
+Jon Leuer,"PF,C"
+Jalen Brunson,PG
+Dante Exum,"PG,SG "
+Terry Rozier,"PG,SG"
+Mikal Bridges,SF
+Gorgui Dieng,"PF,C "
+Malik Monk,"SG,SF"
+Jerryd Bayless,"PG,SG"
+Kyle Anderson,"SG,SF,PF "
+Wayne Ellington,"SG,SF"
+Brice Johnson,PF
+Aron Baynes,C 
+Nik Stauskas,"SG,SF"
+Garrett Temple,"SG,SF"
+Ed Davis,"PF,C"
+Royce O'Neale,SF
+Patrick McCaw,"SG,SF"
+Jared Dudley,"SF,PF"
+Jodie Meeks,SG 
+DeAndre' Bembry,"SF,PF"
+T.J. McConnell,PG
+Omari Spellman,PF
+Lance Thomas,"SG,SF,PF"
+Luc Mbah a Moute,"SF,PF "
+Malachi Richardson,SG
+Solomon Hill,"SG,SF"
+Wayne Selden Jr.,SG
+Kenneth Faried,"PF,C"
+Nemanja Bjelica,"PF,SF"
+Shaun Livingston,"PG,SG"
+Tim Frazier,"PG,SG"
+Cameron Payne,PG
+Timothe Luwawu-Cabarrot,"SG,SF "
+Ian Mahinmi,C
+Mindaugas Kuzminskas,"SF,PF"
+Channing Frye,"PF,C"
+Matthew Dellavedova,"PG,SG"
+Shelvin Mack,PG
+Joe Johnson,"SG,SF,PF"
+Vince Carter,"SG,SF"
+J.J. Barea,"PG,SG "
+Amir Johnson,"PF,C"
+Mario Hezonja,"SG,SF"
+Cristiano Felicio,"C,PF"
+Georgios Papagiannis,C
+Mohamed Bamba,C 
+Quinn Cook,PG
+Nene,"PF,C"
+Glenn Robinson III,"SG,SF"
+Anthony Tolliver,"SF,PF"
+Henry Ellenson,PF
+David West,PF
+Isaiah Whitehead,"PG,SG "
+Troy Daniels,"PG,SG"
+Lucas Nogueira,"PF,C"
+Joffrey Lauvergne,"PF,C"
+Miles Plumlee,"PF,C "
+Boban Marjanovic,C
+Pascal Siakam,PF
+Grayson Allen,SG
+Bryn Forbes,"PG,SG"
+Montrezl Harrell,"PF,C"
+Michael Carter-Williams,PG
+Justin Anderson,"SF,SG"
+Jakob Poeltl,"C,PF"
+Jeff Green,"SF,PF"
+Donte DiVincenzo,SG 
+Luke Kornet,"PF,C"
+Kosta Koufos,"PF,C"
+Raul Neto,PG
+Torrey Craig,"SG,SF"
+Darius Miller,"SG,SF "
+Ivica Zubac,C
+Noah Vonleh,PF
+Tyler Ennis,PG
+Alexis Ajinca,"PF,C"
+Cedi Osman,"SF,PF"
+Ivan Rabb,"PF,C"
+Kyle O'Quinn,"PF,C"
+Raymond Felton,"PG,SG"
+Alan Williams,"PF,C "
+Shaquille Harrison,"PG,SG"
+Dorian Finney-Smith,"SF,PF"
+Aaron Holiday,PG
+Corey Brewer,"SG,SF"
+Quincy Acy,"SF,PF"
+Bismack Biyombo,"PF,C"
+Bam Adebayo,"PF,C"
+Wade Baldwin IV,PG
+Ron Baker,"PG,SG"
+Jarell Martin,"PF,C"
+TJ Leaf,PF
+Malcolm Delaney,"SG,PG"
+Tyus Jones,PG
+David Nwaba,"SG,SF"
+Rodney McGruder,"SG,SF"
+Brandon Knight,"PG,SG"
+Langston Galloway,"PG,SG"
+Bruce Brown,SG
+Khyri Thomas,PG
+Troy Brown Jr.,SF
+Frank Mason III,PG
+Jameer Nelson,PG
+Josh Hart,"SG,SF"
+Davis Bertans,"PF,C"
+Daniel Theis,"PF,C"
+Jonas Jerebko,"SF,PF"
+Joakim Noah,"PF,C "
+Jason Terry,"PG,SG"
+Zaza Pachulia,C
+Luke Babbitt,"SF,PF"
+Jose Calderon,PG
+Aaron Brooks,PG
+Ante Zizic,C
+Elie Okobo,PG
+Dante Cunningham,"SF,PF"
+Brandan Wright,"PF,C"
+Moe Wagner,PF
+Wesley Iwundu,"SG,SF"
+Darrell Arthur,"PF,C"
+Kay Felder,PG
+Wesley Johnson,"SG,SF"
+Robert Williams,"C,PF"
+Mitchell Robinson,C
+Kyle Collinsworth,SG
+Semi Ojeleye,"SF,PF"
+Jawun Evans,PG
+Nicolas Brussino,"SG,SF"
+Joel Bolomboy,PF 
+Ike Anigbogu,C
+Tomas Satoransky,"PG,SG"
+Juancho Hernangomez,"SF,PF"
+Willie Reed,"PF,C,SF "
+Tim Quarterman,"PG,SG"
+Trey Lyles,PF 
+Kevon Looney,"PF,C,SF"
+Troy Williams,"SG,SF "
+Semaj Christon,PG
+Josh Okogie,SG
+Omer Asik,"PF,C"
+Chinanu Onuaku,"PF,C"
+Justin Patton,C 
+Thomas Bryant,C
+Caleb Swanigan,"PF,C"
+Malik Beasley,"PG,SG"
+Josh Huestis,SF
+Treveon Graham,"SG,SF"
+Andrew Bogut,C
+Jordan Bell,"PF,C"
+Derrick Jones Jr.,"SF,PF"
+Johnny O'Bryant III,PF
+D.J. Wilson,PF
+Pat Connaughton,"SG,SF"
+Harry Giles,"PF,C"
+Daniel Ochefu,"C,PF"
+Kyle Singler,"SG,SF"
+De'Anthony Melton,"SG,PG"
+Terrance Ferguson,"SG,SF"
+Jordan Mickey,"PF,C"
+AJ Hammons,C 
+Elijah Millsap,"SG,SF"
+Bruno Caboclo,SF
+Jake Layman,"PF,SF"
+Iman Shumpert,"SG,SF "
+Kyle Wiltjer,PF 
+Richard Jefferson,"SG,SF,PF"
+Deyonta Davis,"PF,C"
+Udonis Haslem,PF
+Keita Bates-Diop,SF
+Josh McRoberts,"PF,C"
+Tarik Black,"PF,C"
+Cole Aldrich,C
+Damian Jones,C 
+Salah Mejri,C
+Sterling Brown,SG
+Rashad Vaughn,"SG,SF"
+Okaro White,PF 
+Chris McCullough,PF
+Tyler Lydon,PF
+Nick Collison,"PF,C"
+Sindarius Thornwell,SG
+Christian Wood,"PF,C"
+Dwight Buycks,"PG,SG"
+Reggie Hearn,G 
+Keenan Evans,G 
+Zach Lofton,G 
+DeVaughn Akoon-Purcell,G
+Donald Sloan,"PG,SG"
+Beno Udrih,PG
+Xavier Silas,SG
+Rob Gray,G
+Isaiah Taylor,PG
+Roy Hibbert,C
+Monte Morris,PG
+Johnny Hamilton,C
+Markel Brown,SG
+Emanuel Terry,F 
+Gary Clark,F
+Rodions Kurucs,F
+Matt Costello,"PF,SF "
+Jarred Vanderbilt,F
+Darrun Hilliard,"SG,SF"
+Drew Eubanks,F
+Ding Yanyuhang,F
+Aaron Harrison,"PG,SG"
+Codi Miller-McIntyre,G
+Maalik Wayns,"PG,SG"
+Daryl Macon,G
+Brandon Paul,SG
+Ryan Broekhoff,F
+Scotty Hopson,SG
+Maxi Kleber,PF
+Chimezie Metu,F 
+R.J. Hunter,SG 
+Thomas Robinson,"PF,C"
+Daniel Hamilton,"SF,SG"
+Jaylen Adams,G
+Andrew White,F
+Jeremy Evans,"SF,PF"
+Thomas Welsh,C
+Jaron Blossomgame,SF
+Tyler Dorsey,"PG,SG "
+Sheldon Mac,SG
+Alex Poythress,"SF,PF "
+Aaron Jackson,G
+Jeff Withey,C
+Ray Spalding,F
+Isaac Bonga,F 
+Anthony Brown,SF
+Landry Shamet,G
+Jonah Bolden,PF
+Tiago Splitter,"C,PF"
+Josh Magette,PG
+James Michael McAdoo,"PF,SF "
+Emeka Okafor,C
+,
+,
